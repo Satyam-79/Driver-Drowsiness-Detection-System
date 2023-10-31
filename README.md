@@ -5,13 +5,12 @@ Welcome to the Driver Drowsiness Detection System project repository! This proje
 
 ### Contents:
 1) /data: This directory contains the sample dataset used for training and testing the machine learning model.
-2) /haar_cascades: Haar cascades XML files used for facial feature detection.
-3) /model: Trained machine learning models for drowsiness detection.
-4) /one-time-model-check: A folder that contains images for a one-time check of the model's performance.
-5) /notebooks: This directory contains two Jupyter notebooks:
+2) /cascades_files: Haar cascades XML files used for facial feature detection.
+3) /models: Trained machine learning models for drowsiness detection.
+4) /notebooks: This directory contains two Jupyter notebooks:
     main.ipynb: A comprehensive notebook with step-by-step instructions on how to run the drowsiness detection system.
     model.ipynb: A detailed notebook showcasing the model training process and evaluation.
-6) alarm.wav: An audio file for the alert sound played when drowsiness is detected.
+5) alarm.wav: An audio file for the alert sound played when drowsiness is detected.
 
 ### Key Features:
 1) Computer Vision-based Drowsiness Detection: The system employs computer vision techniques to monitor the driver's facial features, analyze eye movements, and detect signs of drowsiness in real-time.
